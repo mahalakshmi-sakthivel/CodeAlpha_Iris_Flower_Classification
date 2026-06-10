@@ -16,8 +16,7 @@ warnings.filterwarnings('ignore')
 st.set_page_config(page_title="Iris Classification Dashboard", page_icon="🌸", layout="wide")
 
 st.title("🌸 Iris Flower Classification Dashboard")
-st.markdown("Developed for the **CodeAlpha Data Science Internship**[cite: 1, 3]. Uses **Logistic Regression** to classify species[cite: 28].")
-
+st.markdown("Developed for the **CodeAlpha Data Science Internship**. Uses **Logistic Regression** to classify species.")
 # 3. Load the Dataset directly from a reliable online source (No local CSV required!)
 @st.cache_data
 def load_data():
